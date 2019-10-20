@@ -32,5 +32,15 @@ public class Solution {
         return false;
     }
 
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[][] a = {
+                {1, 2, 8, 9},
+                {2, 4, 9, 12},
+                {4, 7, 10, 13},
+                {6, 8, 11, 15}
+        };
+        System.out.println(s.Find(11, a));
+    }
 
 }
