@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @program: practice
- * @description: 用两个栈实现队列
+ * @description:
  * @author: Koty
  * @create: 2019-10-16 16:09
  **/
