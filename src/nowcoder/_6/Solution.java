@@ -20,19 +20,6 @@ public class Solution {
     }
 
     ArrayList<Integer> res = new ArrayList<>();
-    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
-//        // ①递归实现从尾到头遍历
-//        if (listNode != null) {
-//            printListFromTailToHead(listNode.next);
-//            res.add(listNode.val);
-//        }
 
-        // ②用栈实现FILO（先进后出）
-        while (listNode != null) {
-            res.add(0,listNode.val); // 每次从0的位置加，自动后移，结果跟栈类似
-            listNode = listNode.next;
-        }
-        return res;
-    }
 
 }
