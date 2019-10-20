@@ -4,8 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/nowcoder/Solution.java" line="63" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2546de1f-b3b2-4ebb-910e-8d44740b07c4" name="Default Changelist" comment="print the linked list from beginning to end">
-      <change beforePath="$PROJECT_DIR$/src/nowcoder/_6/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/_6/Solution.java" afterDir="false" />
+    <list default="true" id="2546de1f-b3b2-4ebb-910e-8d44740b07c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nowcoder/_10/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/_10/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,26 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowcoder/_9/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#187#196#0" expanded="true" />
-                <element signature="e#237#246#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nowcoder/_6/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/_10/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="325">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -68,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowcoder/_26/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_27/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_28/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_29/Solution.java" />
@@ -112,13 +97,14 @@
         <option value="$PROJECT_DIR$/src/nowcoder/_67/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_68/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_69/Solution.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/_3/Solution.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/_5/Solution.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/_6/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_7/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_8/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_9/Solution.java" />
-        <option value="$PROJECT_DIR$/src/nowcoder/_3/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_4/Solution.java" />
-        <option value="$PROJECT_DIR$/src/nowcoder/_5/Solution.java" />
-        <option value="$PROJECT_DIR$/src/nowcoder/_6/Solution.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/_10/Solution.java" />
       </list>
     </option>
   </component>
@@ -164,21 +150,7 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="_6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="_8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="_9" type="462c0819:PsiDirectoryNode" />
+              <item name="_10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,7 +269,7 @@
       <workItem from="1571295299990" duration="2524000" />
       <workItem from="1571363433967" duration="645000" />
       <workItem from="1571443326941" duration="15801000" />
-      <workItem from="1571533023708" duration="2773000" />
+      <workItem from="1571533023708" duration="7081000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1571490018905</created>
@@ -369,11 +341,53 @@
       <option name="project" value="LOCAL" />
       <updated>1571535731812</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="print the linked list from tail to head">
+      <created>1571535846282</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571535846282</updated>
+    </task>
+    <task id="LOCAL-00012" summary="rebuild the binary tree">
+      <created>1571535933321</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571535933321</updated>
+    </task>
+    <task id="LOCAL-00013" summary="rebuild the binary tree">
+      <created>1571535963169</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571535963169</updated>
+    </task>
+    <task id="LOCAL-00014" summary="the next node of the binary tree">
+      <created>1571536020201</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571536020201</updated>
+    </task>
+    <task id="LOCAL-00015" summary="implement the queue with two stacks">
+      <created>1571536134208</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1571536134208</updated>
+    </task>
+    <task id="LOCAL-00016" summary="implement the queue with two stacks">
+      <created>1571536165446</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1571536165446</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102515000" />
+    <option name="totallyTimeSpent" value="106823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -419,7 +433,11 @@
     <MESSAGE value="lookup in two-dimensional array" />
     <MESSAGE value="replace blank" />
     <MESSAGE value="print the linked list from beginning to end" />
-    <option name="LAST_COMMIT_MESSAGE" value="print the linked list from beginning to end" />
+    <MESSAGE value="print the linked list from tail to head" />
+    <MESSAGE value="rebuild the binary tree" />
+    <MESSAGE value="the next node of the binary tree" />
+    <MESSAGE value="implement the queue with two stacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement the queue with two stacks" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -430,9 +448,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/_26/Solution.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/_27/Solution.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -562,20 +577,6 @@
     <entry file="file://$PROJECT_DIR$/src/nowcoder/_63/Solution.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/_7/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/_8/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/_3/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="831">
@@ -583,10 +584,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/_4/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/_9/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="143">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/_8/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/_7/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/_6/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -597,23 +623,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/_9/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/_4/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#187#196#0" expanded="true" />
-            <element signature="e#237#246#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/_6/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/_10/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="325">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
