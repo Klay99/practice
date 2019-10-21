@@ -35,9 +35,28 @@ public class Solution {
                 maxs[i] = max;
             }
         }
-        max = maxs[target - 1];
+        max = maxs[target];
         return max;
     }
 
+    /**
+     * 贪心法
+     * 当n>=5时，尽可能多地剪长度为3的绳子；当剩下的绳子长度为4时，把绳子剪成两段长度为2的绳子
+     */
+    public int max(int target) {
+        if (target == 0) {
+            return 0;
+        }
+        if (target <= 3) {
+            return target - 1;
+        }
+        int timesOf3 = target / 3; // 长度为3的绳子的段数
+        // 当绳子最后的长度为4时，更好的方法是剪成两段长度为2的绳子，2 * 2 > 3 * 1
+        if (target - timesOf3 * 3 == 1) {
+            --timesOf3;
+        }
+        int timeOf2 = (target - timesOf3 * 3) / 2;
+        return (int) (Math.pow(3, timesOf3) * Math.pow(2, timeOf2));
+    }
 
 }
