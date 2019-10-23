@@ -22,6 +22,7 @@ public class Solution {
         }
     }
 
+    // 暴力解，遍历链表找到要删除的节点，时间复杂度为O(n)
     public void deleteNode(Node head, Node node) {
         Node current = head;
         Node previous = head;
@@ -32,6 +33,7 @@ public class Solution {
         previous.next = current.next;
     }
 
+    // 将要删除的节点变成该节点的下一个节点，时间复杂度为O(1)
     public void deleteNode2(Node head, Node node) {
         if (node.next == null) { // 目标节点为尾结点时
             if (node == head) { // 目标节点也是头结点
@@ -46,6 +48,8 @@ public class Solution {
 
     /**
      * 题目二：删除链表中重复的节点（所有重复的节点都要删除，不能只保留一个）
+     * 例：       1 => 1 => 2 => 3 => 1 => 3 => 3 => 4 => 2 => 6
+     * 删除后     4 => 6
      */
     public void deleteDuplication(Node head) {
         Node current = head;
