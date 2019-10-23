@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2546de1f-b3b2-4ebb-910e-8d44740b07c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowcoder/_17/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/_17/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/nowcoder/_15/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/nowcoder/_15/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/nowcoder/_16/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/nowcoder/_16/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/nowcoder/_17/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/nowcoder/_17/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nowcoder/_18/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/_18/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nowcoder/_17/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/_18/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="481">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -54,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowcoder/_34/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_35/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_36/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_37/Solution.java" />
@@ -105,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/nowcoder/_15/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_16/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_17/Solution.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/_18/Solution.java" />
       </list>
     </option>
   </component>
@@ -127,6 +130,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,12 +157,17 @@
               <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
               <item name="_17" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="_18" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +310,8 @@
       <workItem from="1571533023708" duration="16920000" />
       <workItem from="1571621343523" duration="21634000" />
       <workItem from="1571667068196" duration="1360000" />
-      <workItem from="1571703986623" duration="26655000" />
+      <workItem from="1571703986623" duration="27291000" />
+      <workItem from="1571792816793" duration="1649000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1571490018905</created>
@@ -477,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571729004483</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="print n digits from 1 to maximum">
+      <created>1571751104657</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1571751104657</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166311000" />
+    <option name="totallyTimeSpent" value="168596000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +514,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2627346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -547,7 +565,8 @@
     <MESSAGE value="cut rope &amp; dynamic programming &amp; greed" />
     <MESSAGE value="the number of ones in binary" />
     <MESSAGE value="numerical integer power" />
-    <option name="LAST_COMMIT_MESSAGE" value="numerical integer power" />
+    <MESSAGE value="print n digits from 1 to maximum" />
+    <option name="LAST_COMMIT_MESSAGE" value="print n digits from 1 to maximum" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -558,9 +577,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/_36/Solution.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/_37/Solution.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -774,8 +790,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/_17/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/_18/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
         </state>
       </provider>
     </entry>
