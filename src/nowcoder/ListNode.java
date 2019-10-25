@@ -8,7 +8,7 @@ package nowcoder;
  **/
 public class ListNode {
     int val;
-    ListNode next = null;
+    ListNode next;
 
     ListNode(int val) {
         this.val = val;
