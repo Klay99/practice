@@ -3,7 +3,7 @@ package nowcoder._27;
 /**
  * @program: practice
  * @description: 二叉树的镜像
- *               操作给定的二叉树，将其变换为源二叉树的镜像。
+ * 操作给定的二叉树，将其变换为源二叉树的镜像。
  * @author: Koty
  * @create: 2019-10-16 16:09
  **/
@@ -27,12 +27,8 @@ public class Solution {
             root.left = right;
             root.right = left;
         }
-        if (root.left != null) { // 左子树不为空时，处理左子树
-            Mirror(root.left);
-        }
-        if (root.right != null) { // 右子树不为空时，处理右子树
-            Mirror(root.right);
-        }
+        Mirror(root.left);
+        Mirror(root.right);
     }
 
 }
