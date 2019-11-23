@@ -86,6 +86,8 @@ public class Solution {
      *         第二行按照从右到左的顺序打印，第三行再按照从左到右的顺序打印，以此类推。
      */
 
+    // 在打印一个节点时（当前行），它的子节点将保存到另外一个栈中（下一行）
+    // 通过两个栈实现，每打印完一个栈后，交换两个栈中的节点（变换打印顺序）
     void ZPrint(TreeNode pRoot) {
         Stack<TreeNode>[] levels = new Stack[2];
         levels[0] = new Stack<>(); // 入栈从左往右，出栈从右往左
