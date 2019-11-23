@@ -20,8 +20,8 @@ public class Solution {
 
     public boolean isBST(int [] sequence, int left, int right) {
         if (left > right) return false;
-        if (right - left <= 1) return true; // 当小于两个元素时，返回true
-        int root = sequence[right]; // 根节点为每次的最后一个元素
+        if (right - left <= 1) return true; // 当少于两个元素时，返回true
+        int root = sequence[right]; // 根节点为最后一个元素
         int partition = -1; // 右子树的起始索引
         // 划分左右子树
         for (int i = left; i < right; i++) {

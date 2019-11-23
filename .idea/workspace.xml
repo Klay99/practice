@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/nowcoder/Solution.java" line="63" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2546de1f-b3b2-4ebb-910e-8d44740b07c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/practice/nowcoder/_26/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/nowcoder/_26/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowcoder/_32/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/_32/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="2546de1f-b3b2-4ebb-910e-8d44740b07c4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,22 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nowcoder/_32/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nowcoder/_33/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="125">
+              <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -75,7 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowcoder/_50/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_51/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_52/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_53/Solution.java" />
@@ -126,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/nowcoder/_31/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_26/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_32/Solution.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/_33/Solution.java" />
       </list>
     </option>
   </component>
@@ -338,14 +323,7 @@
       <workItem from="1572224253289" duration="1278000" />
       <workItem from="1572918727627" duration="5225000" />
       <workItem from="1574390759033" duration="23114000" />
-      <workItem from="1574471508836" duration="14112000" />
-    </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1571490018905</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1571490018905</updated>
+      <workItem from="1574471508836" duration="18869000" />
     </task>
     <task id="LOCAL-00002" summary="first commit">
       <created>1571490050744</created>
@@ -676,11 +654,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574491502843</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="print the binary tree from top to bottom">
+      <created>1574491893564</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1574491893564</updated>
+    </task>
+    <task id="LOCAL-00050" summary="verify post order traversal sequence of BST">
+      <created>1574496541278</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1574496541279</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283706000" />
+    <option name="totallyTimeSpent" value="288463000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,7 +687,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22855228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22855228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -704,7 +696,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28611898" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28611898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30169973" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -740,7 +732,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implement the queue with two stacks" />
     <MESSAGE value="find the nth term of the Fibonacci" />
     <MESSAGE value="the min number of the rotate array" />
     <MESSAGE value="find a path in matrix" />
@@ -765,7 +756,8 @@
     <MESSAGE value="stack push, pop sequence" />
     <MESSAGE value="substructure of a tree" />
     <MESSAGE value="print the binary tree from top to bottom" />
-    <option name="LAST_COMMIT_MESSAGE" value="print the binary tree from top to bottom" />
+    <MESSAGE value="verify post order traversal sequence of BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="verify post order traversal sequence of BST" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1116,20 +1108,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/_33/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/_32/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+        <state relative-caret-position="129">
+          <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/_33/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
         </state>
       </provider>
     </entry>
