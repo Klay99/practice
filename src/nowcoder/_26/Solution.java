@@ -27,11 +27,11 @@ public class Solution {
             }
             // 如果找不到，再从root1的左子树开始找
             if (!result) {
-                result = doesTree1HaveTree2(root1.left, root2);
+                result = HasSubtree(root1.left, root2);
             }
             // 如果找不到，再从root1的右子树开始找
             if (!result) {
-                result = doesTree1HaveTree2(root1.right, root2);
+                result = HasSubtree(root1.right, root2);
             }
         }
         return result;

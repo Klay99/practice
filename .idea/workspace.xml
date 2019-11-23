@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2546de1f-b3b2-4ebb-910e-8d44740b07c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowcoder/_31/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/_31/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/nowcoder/_26/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/nowcoder/_26/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/nowcoder/_27/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/nowcoder/_27/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/nowcoder/_28/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/nowcoder/_28/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/nowcoder/_29/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/nowcoder/_29/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/nowcoder/_30/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/nowcoder/_30/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/nowcoder/_31/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/nowcoder/_31/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/nowcoder/_32/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/nowcoder/_32/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nowcoder/_32/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/_32/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +27,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nowcoder/_31/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="825">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/_32/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/_26/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+              <folding>
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#1574#1575#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowcoder/_49/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_50/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_51/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_52/Solution.java" />
@@ -108,12 +138,13 @@
         <option value="$PROJECT_DIR$/src/nowcoder/_24/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/ListNode.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_25/Solution.java" />
-        <option value="$PROJECT_DIR$/src/nowcoder/_26/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_27/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_28/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_29/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_30/Solution.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/_31/Solution.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/_32/Solution.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/_26/Solution.java" />
       </list>
     </option>
   </component>
@@ -136,6 +167,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,14 +192,26 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="_26" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
               <item name="_31" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="_32" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
+  <component name="RunManager" selected="Application.Solution (5)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nowcoder._20.Solution" />
       <module name="practice" />
@@ -265,12 +310,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder._18.Solution" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder._32.Solution" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcoder._18.*" />
+          <option name="PATTERN" value="nowcoder._32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,11 +325,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +363,8 @@
       <workItem from="1572139115342" duration="620000" />
       <workItem from="1572224253289" duration="1278000" />
       <workItem from="1572918727627" duration="5225000" />
-      <workItem from="1574390759033" duration="16167000" />
+      <workItem from="1574390759033" duration="23114000" />
+      <workItem from="1574471508836" duration="1467000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1571490018905</created>
@@ -628,11 +674,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574408104642</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="stack push, pop sequence">
+      <created>1574412859150</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1574412859151</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262647000" />
+    <option name="totallyTimeSpent" value="271061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -647,7 +700,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22587131" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22855228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -681,8 +734,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rebuild the binary tree" />
     <MESSAGE value="the next node of the binary tree" />
     <MESSAGE value="implement the queue with two stacks" />
     <MESSAGE value="find the nth term of the Fibonacci" />
@@ -707,7 +769,8 @@
     <MESSAGE value="symmetric binary tree" />
     <MESSAGE value="print the matrix clockwise" />
     <MESSAGE value="stack containing min() function" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack containing min() function" />
+    <MESSAGE value="stack push, pop sequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack push, pop sequence" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -734,9 +797,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/_52/Solution.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/_53/Solution.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1002,18 +1062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/_26/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#1617#1618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/_27/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -1052,8 +1100,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/_31/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="825">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/_32/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/_26/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
