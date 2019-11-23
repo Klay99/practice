@@ -1,10 +1,99 @@
 package nowcoder._32;
 
+import java.util.ArrayList;
+
 /**
  * @program: practice
- * @description: 从头到尾打印链表
+ * @description: 从上到下打印二叉树
+ *               从上往下打印出二叉树的每个节点，同层节点从左至右打印。
  * @author: Koty
  * @create: 2019-10-16 16:09
  **/
 public class Solution {
+
+    public class TreeNode {
+        int val = 0;
+        TreeNode left = null;
+        TreeNode right = null;
+
+        public TreeNode(int val) {
+            this.val = val;
+
+        }
+    }
+
+    // 节点按照从上往下从左往右的顺序入队，优先入队的元素优先打印
+    public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
+        ArrayList<Integer> list = new ArrayList<>(); // 用于存储打印结果
+        ArrayList<TreeNode> queue = new ArrayList<>(); // 模拟队列，存储节点
+
+        if (root != null) queue.add(root);
+
+        while (queue.size() != 0) {
+            TreeNode temp = queue.remove(0); // 出队（第一个节点）
+            // 入队，先左后右
+            if (temp.left != null) {
+                queue.add(temp.left); // 左子节点不为空，入队
+            }
+            if (temp.right != null) {
+                queue.add(temp.right); // 右子结点不为空，入队
+            }
+            // 打印出队元素
+            list.add(temp.val);
+        }
+
+        return list;
+    }
+
+    /**
+     * 题目二：分行从上到下打印二叉树
+     *         从上到下按层打印二叉树，同一层的节点按从左到右的顺序打印，每一层打印到一行
+     */
+
+    void Print(TreeNode pRoot) {
+        ArrayList<TreeNode> queue = new ArrayList<>();
+        int curr = 0; // 当前层未打印的节点数
+        int next = 0; // 下一层的节点数
+        if (pRoot != null) {
+            queue.add(pRoot);
+            curr++;
+        }
+        while (queue.size() != 0) {
+            TreeNode temp = queue.remove(0); // 出队
+            if (temp.left != null) {
+                queue.add(temp.left); // 入队
+                next++; // 下一层个数加一
+            }
+            if (temp.right != null) {
+                queue.add(temp.right); // 入队
+                next++; // 下一层个数加一
+            }
+            System.out.print(temp.val + "\t"); // 打印出队元素
+            curr--; // 当前层个数减一
+            if (curr == 0) { // 当前层已全部打印完毕
+                System.out.println(); // 换行
+                curr = next; // 当前层变为下一层
+                next = 0; // 下一层个数初始化为0
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        TreeNode node1 = s.new TreeNode(8);
+        TreeNode node2 = s.new TreeNode(6);
+        TreeNode node3 = s.new TreeNode(5);
+        TreeNode node4 = s.new TreeNode(7);
+        TreeNode node5 = s.new TreeNode(10);
+        TreeNode node6 = s.new TreeNode(9);
+        TreeNode node7 = s.new TreeNode(11);
+        node1.left = node2; // 8.left == 6
+        node1.right = node5; // 8.right == 10
+        node2.left = node3; // 6.left == 5
+        node2.right = node4; // 6.right == 7
+        node5.left = node6; // 10.left == 9
+        node5.right = node7; // 10.right == 11
+        s.Print(node1);
+    }
+
 }
