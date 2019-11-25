@@ -48,7 +48,8 @@ public class Solution {
         return node;
     }
 
-    // 在每个节点后面添加该节点的复制
+    // 方法二
+    // 在每个节点后面添加该节点的复制，之后在对链表进行拆分
     public RandomListNode copy(RandomListNode pHead) {
         if (pHead == null) {
             return null;
