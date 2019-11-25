@@ -1,5 +1,8 @@
 package nowcoder._37;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @program: practice
  * @description: 序列化二叉树
@@ -51,6 +54,43 @@ public class Solution {
             node.right = Deserialize(str);
         }
         return node;
+    }
+
+    // 层序遍历
+    String Serialize2(TreeNode root) {
+        StringBuilder sb = new StringBuilder();
+        Queue<TreeNode> queue = new LinkedList<>();
+        if(root != null) queue.add(root);
+        while(!queue.isEmpty()){
+            TreeNode node = queue.poll(); // 出队
+            if(node != null){
+                queue.offer(node.left); // 从左到右入队
+                queue.offer(node.right);
+                sb.append(node.val).append("!");
+            }else{
+                sb.append("#!");
+            }
+        }
+        return sb.toString();
+    }
+
+    TreeNode Deserialize2(String str) {
+        if(str == null || str.length() == 0)
+            return null;
+        String[] nodes = str.split("!"); // 分割序列化字符串
+        TreeNode[] treeNodes = new TreeNode[nodes.length]; // 节点数组，用于存储所有节点
+        for(int i=0; i<nodes.length; i++){ // 节点数组赋值
+            if(!nodes[i].equals("#"))
+                treeNodes[i] = new TreeNode(Integer.valueOf(nodes[i]));
+        }
+        for(int i=0, j=1; j<treeNodes.length; i++){ // j为左子节点在数组中的索引
+            // 在层序遍历序列中，当前节点与其左右子节点的距离比上一个节点都要大两个距离
+            if(treeNodes[i] != null){
+                treeNodes[i].left = treeNodes[j++]; // 左子节点比上个节点的右子结点大一比上个节点的左子节点大二
+                treeNodes[i].right = treeNodes[j++]; // 右子节点比左子节点大一
+            }
+        }
+        return treeNodes[0];
     }
 
 }
