@@ -21,7 +21,7 @@ public class Solution {
             return list;
         }
         Permutation(str.toCharArray(), 0, list);
-        Collections.sort(list); // 最后对结果的所有排列组合进行（字母）排序
+        Collections.sort(list); // 最后对结果的所有排列进行（字母）排序
         return list;
     }
 
