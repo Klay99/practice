@@ -75,6 +75,11 @@ public class Solution {
         System.out.println();
     }
 
+    // todo 堆排序，优先队列实现
+    public ArrayList<Integer> GetLeastNumbers_Solution3(int [] input, int k) {
+        return null;
+    }
+
     public static void main(String[] args) {
         Solution s = new Solution();
         int[] a = {4,5,1,6,2,7,3,8};
