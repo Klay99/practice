@@ -71,12 +71,13 @@ public class Solution {
     }
 
     private int[] find(int[] array, int i) {
-        int[] res = {0,Integer.MIN_VALUE};
-        if (i < 0) return res;
+        int[] res = {0,Integer.MIN_VALUE}; // res[0] : currSum, res[1] : maxSum
+        if (i < 0) return res; // 递归结束条件
         res = find(array, i - 1);
         int preSum = res[0];
+        // 前面的和为负数时，舍弃前面所有值从i开始重新计算，否则加上当前值
         res[0] = preSum <= 0 ? array[i] : preSum + array[i];
-        if (res[0] > res[1]) {
+        if (res[0] > res[1]) { // currSum > maxSum
             res[1] = res[0];
         }
         System.out.println("currSum: " + res[0] + "\t\tmaxSum: " + res[1]);
