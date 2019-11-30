@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nowcoder/_43/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="606">
+              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -145,6 +145,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,8 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,14 +344,8 @@
       <workItem from="1574900880713" duration="10789000" />
       <workItem from="1574911945918" duration="229000" />
       <workItem from="1574946181271" duration="1961000" />
-      <workItem from="1575006903588" duration="3196000" />
-    </task>
-    <task id="LOCAL-00018" summary="find the nth term of the Fibonacci">
-      <created>1571555298840</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1571555298840</updated>
+      <workItem from="1575006903588" duration="3584000" />
+      <workItem from="1575074261812" duration="746000" />
     </task>
     <task id="LOCAL-00019" summary="the min number of the rotate array">
       <created>1571622533798</created>
@@ -689,11 +683,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574912153660</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="the number of 1 between 1 and n">
+      <created>1575010624435</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1575010624436</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369443000" />
+    <option name="totallyTimeSpent" value="370577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,7 +709,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21849866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22117962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -753,7 +754,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Regular expression matching" />
     <MESSAGE value="a string representing a numeric value" />
     <MESSAGE value="reorder the array so that odd precede even" />
     <MESSAGE value="find Kth node from tail of linkedList" />
@@ -778,7 +778,8 @@
     <MESSAGE value="the smallest k numbers" />
     <MESSAGE value="Median in the data stream" />
     <MESSAGE value="the greatest sum of a contiguous subarray" />
-    <option name="LAST_COMMIT_MESSAGE" value="the greatest sum of a contiguous subarray" />
+    <MESSAGE value="the number of 1 between 1 and n" />
+    <option name="LAST_COMMIT_MESSAGE" value="the number of 1 between 1 and n" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1219,8 +1220,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/_43/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="606">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>
